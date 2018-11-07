@@ -1,0 +1,44 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.12.1/libexec/bin/yarn.js add react-navigation
+
+PATH: 
+  /Users/mac/Library/Android/sdk//tools:/Users/mac/Library/Android/sdk//platform-tools:/Users/mac/Library/Android/sdk/:/Users/mac/Documents/work/COCOS/setup/apache-ant-1.10.4/bin:/Users/mac/Documents/work/COCOS/setup/android-ndk-r17b/:/Users/mac/Documents/work/COCOS/setup/cocos2d-x-3.17/templates:/Users/mac/Documents/work/COCOS/setup:/Users/mac/Documents/work/COCOS/setup/cocos2d-x-3.17/tools/cocos2d-console/bin:/Users/mac/.sdkbox/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/Applications/Xamarin Workbooks.app/Contents/SharedSupport/path-bin
+
+Yarn version: 
+  1.12.1
+
+Node version: 
+  10.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, lstat '/Users/mac/Library/Caches/Yarn/v3/npm-lottie-react-native-2.5.0-0711b8b34bec7741552c24b71efd3d4cab347571/node_modules/lottie-react-native/.flowconfig'
+
+npm manifest: 
+  {
+    "name": "empty-project-template",
+    "main": "node_modules/expo/AppEntry.js",
+    "private": true,
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "^31.0.2",
+      "react": "16.5.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz"
+    },
+    "devDependencies": {
+      "babel-preset-expo": "^5.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
